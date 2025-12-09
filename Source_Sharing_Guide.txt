@@ -1,0 +1,34 @@
+HOW TO SHARE THIS PROJECT (SOURCE CODE)
+=====================================
+
+To let your friend build this on their Mac, send them ONLY these 3 folders and the Python script.
+
+1. FOLDERS TO COPY:
+   ----------------
+   [ ] Assets            (All your models, scripts, scenes)
+   [ ] Packages          (Unity plugin list)
+   [ ] ProjectSettings   (Your tag, layer, and build configurations)
+
+2. FILES TO COPY:
+   --------------
+   [ ] what_if_engine.py (Your Python Digital Twin Engine)
+   [ ] requirements.txt  (If you have one for Python libraries)
+
+3. DO NOT COPY (These are huge and auto-generated):
+   ------------------------------------------------
+   [X] Library
+   [X] Logs
+   [X] Obj
+   [X] Temp
+   [X] Builds
+   [X] .vs / .idea
+
+INSTRUCTIONS FOR YOUR FRIEND:
+-----------------------------
+1. Install Unity Hub and Unity 6 (6000.2.10f1).
+   - *Important:* When installing, ensure they check "Mac Build Support (IL2CPP)".
+2. Open Unity Hub -> Add -> Select the folder you sent them.
+3. Open the project. (It will take time to re-generate the Library).
+4. Go to File > Build Settings.
+5. Select "macOS" and ensure "Architecture" is set to "ARM64 (Apple Silicon)" or "Intel" depending on their Mac.
+6. Click Build.
