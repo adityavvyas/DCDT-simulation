@@ -69,4 +69,4 @@ This Unity project simulates a Data Center Digital Twin, featuring procedural ro
 
 ## License
 
-[Add License Here if applicable]
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
