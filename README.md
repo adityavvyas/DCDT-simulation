@@ -66,7 +66,9 @@ This Unity project simulates a Data Center Digital Twin, featuring procedural ro
 
 - **Scripts**: Written in C#.
 - **Version Control**: Git initialized with Unity-specific `.gitignore`.
+- **Sharing**: See [Sharing_Instructions.md](Sharing_Instructions.md) for how to send this project to others.
 
 ## License
 
 This project is licensed under the [GNU General Public License v3.0](LICENSE).
+```
